@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Anchor Tag</h1>
+    <!-- 
+      To Navigate from one webpage to another webpage we have to use anchor tag.
+        ? Syntax: <a href="path address"> content <a>
+            >>> content can be anything
+                text , images , icons , etc..
+        
+        ? Attributes:
+            1. href: 
+                It will specify to where we have to navigate 
+                we can pass internal path address as well as external path address.
+                & To mail: href="mailto:qspiders@gmail.com"
+                & To mail: href="mailto:qspiders@gmail.com;jspiders@gmail.com;pyspiders@gmail.com"
+                & to call: href:"callto:9876541230"
+                & to call: href:"tell:9876541230"
+
+            2. target:
+                It will specify where to open a webpage.
+                Values: _self ===> It will open in same tab
+                        _blank ===> It will open in new tab
+
+            3. download:
+                It will download the file
+                It requires a value.
+                If we defined the value , it will download the specified name.
+                if not , it will download with the original name.
+    -->
+
+    <a href="https://www.meesho.com/">Meesho</a> <br>
+    <a href="https://www.flipkart.com/">Flipkart</a> <br>
+    <a href="./index.html">Index Page</a> <br>
+    <a href="./image.html">Image Tag Page</a> <br>
+    <a href="./formattingTags.html">Formatting Tags Page</a> <br>
+
+    <!-- using Text as content -->
+    <a href="https://www.meesho.com/">Meesho</a> <br>
+
+    <!-- using image as content -->
+    <a href="https://www.meesho.com/">
+        <img src="./images/meeshoLogo.svg" alt="" height="100px">
+    </a> <br>
+
+    <!-- using icon as content -->
+    <a href="https://www.meesho.com/">🕺💃🕺💃🕺💃🕺 🏠</a> <br>
+
+
+    <hr>
+    <!-- taget = _self -->
+    <a href="https://www.meesho.com/" target="_self">🕺💃 - same tab</a> <br>
+
+    <!-- taget = _blank -->
+    <a href="https://www.meesho.com/" target="_blank">🕺💃 - new tab</a> <br>
+
+    <hr>
+
+    <a href="./TypeScriptNotesForProfessionals.pdf">Open Typescript Notes</a> <br>
+
+    <a href="./TypeScriptNotesForProfessionals.pdf" download=""> Download Typescript Notes</a> <br>
+
+    <a href="./TypeScriptNotesForProfessionals.pdf" download="Manas Notes"> Download Typescript Notes</a>
+
+    <hr>
+
+    <a href="mailto:qspidersdelhi@gmail.com">Mail to Qspiders</a> <br> 
+    <a href="mailto:qspidersdelhi@gmail.com;qspiderscorporate@gmail.com;bobby@gmail.com;random@gmail.com">Mail to Qspiders</a> <br> 
+
+    <hr>
+
+    <a href="callto:9876641230">Call Me - 1</a>
+    <a href="tell:9876641230">Call Me - 2</a>
+
+</body>
+</html>
