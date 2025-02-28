@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <!-- 
+        form
+        label -- for
+        input
+            ? Attributes: 
+                type , name , value, id 
+        button
+    -->
+
+    <form>
+        <label for="userName">Name : </label>
+        <input type="text" name="userName" id="userName" value="Random Person"> <br> <br>
+
+        <label for="userMail">Email : </label>
+        <input type="email" name="userEmail" id="userMail"> <br> <br>
+
+        <label for="userMobile">Mobile No : </label>
+        <input type="number" name="userNo" id="userMobile"> <br> <br>
+
+        <label for="userMobile">Mobile No : </label>
+        <input type="tel" name="userNo" id="userMobile"> <br> <br>
+
+        <label for="pwd">Password : </label>
+        <input type="password" name="password" id="pwd"> <br> <br>
+
+        <label>Gender : </label>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Others"> Others<br> <br>
+
+        <label>Skills : </label>
+        <input type="checkbox" name="skills" value="HTML"> HTML 
+        <input type="checkbox" name="skills" value="CSS"> CSS 
+        <input type="checkbox" name="skills" value="js"> JavaScript 
+        <input type="checkbox" name="skills" value="react"> React JS <br> <br>
+
+        <label for="">Skills : </label>
+        <select name="mySkills" id="" >
+            <optgroup label="FrontEnd">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+                <option value="TypeScript">TypeScript</option>
+                <option>React JS</option>
+            </optgroup>
+
+            <optgroup label="MiddleWare">
+                <option>Node Js</option>
+                <option>Express JS</option>
+                <option>Postman</option>
+            </optgroup>
+            
+            <optgroup label="Backend">
+                <option>SQL</option>
+                <option>MySQL</option>
+                <option>MongoDB</option>
+            </optgroup>
+        </select> <br> <br>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>
