@@ -17,14 +17,14 @@
         button
     -->
 
-    <form>
+    <form novalidate method="post" action="./checkData.txt">
         <fieldset>
             <legend>Personal Details</legend>
         <label for="userName">Name : </label>
-        <input type="text" name="userName" id="userName" value="Random Person"> <br> <br>
+        <input type="text" name="userName" id="userName" value="Random Person" autocomplete="off"> <br> <br>
 
         <label for="userMail">Email : </label>
-        <input type="email" name="userEmail" id="userMail"> <br> <br>
+        <input type="email" name="userEmail" id="userMail" autocomplete="off"> <br> <br>
 
         <label for="userMobile">Mobile No : </label>
         <input type="number" name="userNo" id="userMobile"> <br> <br>
@@ -122,11 +122,46 @@
             Image : <input type="image" src="./images/tamanna.jpg"> <br> <br>
             File : <input type="file"> <br> <br>
         </fieldset>
+        <fieldset>
+            <legend>Attributes of Input Tag</legend>
+            <!-- 
+                type , name , value , id , height , width , min , max , minlength , maxlength , placeholder , required , readonly , disabled , size , autofocus , autocomplete
+            -->
+            Age: <input type="number" min="18" max="35"> <br> <br>
+            Age: <input type="number" step="5"> <br> <br>
+            Rating: <input type="range" min="5" max="10"> <br> <br>
+            Name: <input type="text" minlength="8" maxlength="12"> <br> <br>
+
+            <label for="">Enter Your Name : </label>
+            <input type="text" name="" id="" placeholder="Enter Your Name"> <br> <br>
+
+            <input type="email" required placeholder="Enter Your Email" autofocus> <br> <br>
+            <input type="text" required placeholder="Enter Your Mobile No"> <br> <br>
+            Company Name : <input type="text" value="TCS" readonly> <br> <br>
+            Company Name : <input type="text" value="TCS" disabled> <br> <br>
+
+            Enter ZIP code: <input type="text" size="5">
+        </fieldset>
 
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
 
     </form>
     
+    <hr>
+
+
+
+    <form>
+
+        Name : <input type="text" name="empName" pattern="[A-Za-z]{8}" title="Enter alphabets and length should be 8">
+        Mobile : <input type="text" name="mobileNo" pattern="[0-9]{10}" title="Enter a 10 digit mobile number">
+        Mobile : <input type="number" name="mobileNo" pattern="[7-9]{1}[0-9]{9}" title="Enter a 10 digit mobile number">
+
+        <button>Submit</button>
+
+    </form>
+
+
 </body>
 </html>
