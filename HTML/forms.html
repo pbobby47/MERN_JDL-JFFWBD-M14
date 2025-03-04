@@ -18,6 +18,8 @@
     -->
 
     <form>
+        <fieldset>
+            <legend>Personal Details</legend>
         <label for="userName">Name : </label>
         <input type="text" name="userName" id="userName" value="Random Person"> <br> <br>
 
@@ -37,7 +39,11 @@
         <input type="radio" name="gender" value="Male"> Male
         <input type="radio" name="gender" value="Female"> Female
         <input type="radio" name="gender" value="Others"> Others<br> <br>
+        </fieldset>
 
+
+        <fieldset>
+            <legend>Educational Details</legend>
         <label>Skills : </label>
         <input type="checkbox" name="skills" value="HTML"> HTML 
         <input type="checkbox" name="skills" value="CSS"> CSS 
@@ -45,12 +51,12 @@
         <input type="checkbox" name="skills" value="react"> React JS <br> <br>
 
         <label for="">Skills : </label>
-        <select name="mySkills" id="" >
+        <select name="mySkills" id="" multiple>
             <optgroup label="FrontEnd">
                 <option>HTML</option>
                 <option>CSS</option>
                 <option>JavaScript</option>
-                <option value="TypeScript">TypeScript</option>
+                <option value="10">TypeScript</option>
                 <option>React JS</option>
             </optgroup>
 
@@ -66,6 +72,56 @@
                 <option>MongoDB</option>
             </optgroup>
         </select> <br> <br>
+
+        <!-- 
+        step 1: create input tag
+        step 2: create datalist with options
+        step 3: list and id attributes
+         -->
+
+         <label>Skills : </label>
+         <input list="myskillsset">
+
+        <datalist id="myskillsset">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Java</option>
+            <option>Core Java</option>
+            <option>Python</option>
+            <option>React JS</option>
+            <option>React Native</option>
+            <option>Node JS</option>
+            <option>Next JS</option>
+        </datalist> <br> <br>
+
+        <label for="">Comments : </label>
+        <textarea name="" id="" rows="10" cols="50"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Values of Type Attribute</legend>
+            Text: <input type="text" > <br> <br>
+            Email: <input type="email" > <br> <br>
+            Password: <input type="password" > <br> <br>
+            Number: <input type="number" > <br> <br>
+            Tel: <input type="tel" > <br> <br>
+            Radio: <input type="radio" > <br> <br>
+            Checkbox: <input type="checkbox" > <br> <br>
+            Button: <input type="button" value="Normal Button"> <br> <br>
+            Submit: <input type="submit" > <br> <br>
+            Reset: <input type="reset" > <br> <br>
+            Date: <input type="date" > <br> <br>
+            Time: <input type="time" > <br> <br>
+            Date Time Local: <input type="datetime-local" > <br> <br>
+            Week: <input type="week" > <br> <br>
+            Month: <input type="month" > <br> <br>
+            Search: <input type="search" > <br> <br>
+            Color: <input type="color" > <br> <br>
+            Range: <input type="range" name="rating" min="0" max="10"> <br> <br>
+            Image : <input type="image" src="./images/tamanna.jpg"> <br> <br>
+            File : <input type="file"> <br> <br>
+        </fieldset>
 
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
