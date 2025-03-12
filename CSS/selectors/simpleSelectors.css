@@ -1,0 +1,90 @@
+/* ! Tag Name */
+/*
+h1 {
+  color: white;
+  background-color: teal;
+}
+
+p {
+  color: white;
+  background-color: teal;
+}
+
+div {
+  color: white;
+  background-color: teal;
+}
+
+b {
+  color: white;
+  background-color: teal;
+}
+
+i {
+  color: white;
+  background-color: teal;
+}
+
+u {
+  color: white;
+  background-color: teal;
+}
+
+mark {
+  color: white;
+  background-color: teal;
+}
+*/
+
+/* ! Grouping */
+/*
+h1,p, div, b, i, u, mark {
+  color: white;
+  background-color: teal;
+}
+*/
+
+/* ! Universal */
+/*
+*{
+  color: white;
+  background-color: teal;
+}
+*/
+
+/* ! id name */
+#myPara2 {
+  color: blue;
+}
+
+/* ! Class Name */
+
+.c-blue {
+  color: blue;
+}
+
+.c-green {
+  color: green;
+}
+
+.bg-teal {
+  background-color: teal;
+}
+
+.bg-crimson {
+  background-color: crimson;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}
+
+
