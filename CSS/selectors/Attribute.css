@@ -1,0 +1,15 @@
+/* img[alt] {
+  height: 450px;
+} */
+
+img[alt="mandana"] {
+  height: 450px;
+}
+
+img[alt="advani"] {
+  height: 800px;
+}
+
+input[name="userEmail"] {
+  color: blue;
+}

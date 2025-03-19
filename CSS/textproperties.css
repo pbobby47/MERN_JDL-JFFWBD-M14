@@ -1,0 +1,62 @@
+p {
+  color: blue;
+
+  text-align: start;
+  /* It will align the text
+  Values: start(Default), center, end, justify, right, left */
+
+  text-transform: none;
+  /* It will convert the text into uppercase/lowercase/etc 
+  values: none, lowercase , uppercase , capitalize */
+
+  text-wrap: wrap;
+  /* It will specify the content has to wrap into the next line or not.
+  values: wrap(default), nowrap */
+
+  /*? Syntax:  text-decoration: text-decoration-line text-decoration-style text-decoration-color; */
+
+  /* text-decoration-line: underline; */
+  /* It will specify which type of line we want
+  Values: underline, overline, line-through */
+
+  /* text-decoration-style: dashed; */
+  /* It will specify the style of decoration-line 
+  values: solid(Default), dotted, dashed, wavy, double, none */
+
+  /* text-decoration-color: red; */
+  /* It will specify the color of decoration-line
+  values: any color, text-color is default color */
+
+  /* text-decoration: dashed underline overline red; */
+
+  /* word-spacing: 10px; */
+  /* It will specify the space b/w the words
+  Values: any number */
+
+  /* letter-spacing: 5px; */
+  /* It will specify the space b/w the letters
+  Values: any number */
+
+  /* line-height: 30px; */
+
+  text-indent: 200px;
+  /* It will specify the width of indentation
+  Values: any number */
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  line-height: 50px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: teal;
+
+  /* text-shadow: x-axis y-axis blur color; */
+  text-shadow: 2px 2px 3px teal;
+}

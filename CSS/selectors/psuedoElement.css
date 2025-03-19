@@ -1,0 +1,34 @@
+p::before {
+  content: "Mr. ";
+}
+
+p::after {
+  content: ", Congratulations you got an offer of 15LPA...";
+}
+
+div::selection {
+  color: pink;
+  background-color: burlywood;
+}
+
+li::marker {
+  color: red;
+}
+
+div::first-line {
+  color: blue;
+}
+
+div::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+p::first-line {
+  color: blue;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 40px;
+}

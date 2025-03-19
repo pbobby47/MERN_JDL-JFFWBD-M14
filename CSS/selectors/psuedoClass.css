@@ -74,21 +74,53 @@ h1:hover {
 }
 
 #mainContainer :last-of-type {
-  background-color:tomato;
+  background-color: tomato;
 }
 
 #mainContainer :nth-of-type(2) {
-  background-color:cornflowerblue;
+  background-color: cornflowerblue;
 }
 
-a:visited{
-    color:brown;
+a:visited {
+  color: brown;
 }
 
-a:link{
-    color: blueviolet;
+a:link {
+  color: blueviolet;
 }
 
-a:active{
-    color: darkgreen;
+a:active {
+  color: darkgreen;
+}
+
+#myInfo {
+  display: none;
+  color: blue;
+}
+
+#showMore:checked + #myInfo {
+  display: block;
+  color: red;
+}
+
+table tr:nth-child(even) td:nth-child(even) {
+  background-color: chocolate;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+  background-color: bisque;
+}
+
+table tr:nth-child(odd) td:nth-child(odd) {
+  background-color: chocolate;
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+  background-color: bisque;
+}
+
+#myName:focus,
+#myEmail:focus,
+#myMobileNo:focus {
+  color: blue;
 }

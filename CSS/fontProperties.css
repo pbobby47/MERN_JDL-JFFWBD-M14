@@ -1,0 +1,17 @@
+#myPara1{
+    font-size:large;
+    /* It will specify the size of the text content
+    Values: number, xx-small, x-small, small, normal , large , x-large, xx-large */
+
+    font-style: oblique;
+    /* It will specify the style of the text content
+    Values: normal(default) , italic , oblique */
+
+    font-weight: bold;
+    /* It will specify the boldness of the text content
+    values: 100 - 900 , normal , bold, bolder , lighter*/
+
+    font-variant: small-caps;
+
+    font-family:'Courier New', Courier, monospace;
+}
