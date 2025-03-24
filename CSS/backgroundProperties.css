@@ -1,0 +1,51 @@
+#box {
+  height: 500px;
+  width: 500px;
+  border: solid;
+
+  background-color: bisque;
+  background-image: url("./image1.jpeg");
+  /* It will specify the background image
+    values: internal image / external image   */
+
+  background-repeat: no-repeat;
+  /* It will specify whether the image have to repeat or not 
+    values: repeat(default) , repeat-x , repeat-y , no-repeat */
+
+  /* ? background-position: background-position-x background-position-y; */
+  /* background-position-x: right; */
+  /* background-position-y: bottom; */
+
+  /* background-position: right center; */
+  /* background-position: center center; */
+  /* background-position: center; */
+
+  /* background-size: cover; */
+}
+
+#myBox {
+  height: 500px;
+  width: 500px;
+
+  background-color: bisque;
+  background-image: url("https://cdn.pixabay.com/photo/2025/03/03/13/49/little-girl-9444205_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  /* background-image: url("https://cdn.pixabay.com/photo/2024/09/19/07/30/horses-9057950_1280.jpg");
+  color: gray;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+
+  /* background-attachment:fixed; */
+
+  background: url("https://cdn.pixabay.com/photo/2024/09/19/07/30/horses-9057950_1280.jpg")
+    no-repeat center fixed;
+
+  background-size: cover;
+}

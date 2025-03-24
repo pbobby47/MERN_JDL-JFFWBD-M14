@@ -1,0 +1,28 @@
+#box1 {
+  height: 200px;
+  width: 200px;
+
+  /* border: border-width border-style border-color; */
+
+  /* border-width: 30px;
+    border-style:groove;
+    border-color: red; */
+
+  /* border-top: 3px solid red;
+    border-bottom: 3px dotted blue;
+    border-left: 10px dashed green;
+    border-right: 30px groove orangered; */
+}
+
+#box2 {
+  height: 200px;
+  width: 200px;
+
+  border: solid;
+  border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 5px;
+}

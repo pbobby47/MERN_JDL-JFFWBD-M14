@@ -1,17 +1,85 @@
-#myPara1{
-    font-size:large;
-    /* It will specify the size of the text content
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Dancing+Script:wght@400..700&family=Grand+Hotel&family=Jaini&family=Kalam:wght@300;400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Srisakdi:wght@400;700&family=Tillana:wght@400;500;600;700;800&display=swap');
+
+#myPara1 {
+  font-size: large;
+  /* It will specify the size of the text content
     Values: number, xx-small, x-small, small, normal , large , x-large, xx-large */
 
-    font-style: oblique;
-    /* It will specify the style of the text content
+  font-style: oblique;
+  /* It will specify the style of the text content
     Values: normal(default) , italic , oblique */
 
-    font-weight: bold;
-    /* It will specify the boldness of the text content
+  font-weight: bold;
+  /* It will specify the boldness of the text content
     values: 100 - 900 , normal , bold, bolder , lighter*/
 
-    font-variant: small-caps;
+  font-variant: small-caps;
 
-    font-family:'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*
+Step 1: 
+    google fonts
+
+Step 2: 
+    pick your font - familyt
+
+step 3:
+    get font 
+
+step 4: 
+    embed code
+*/
+
+/* ! ==== Para 1 ====*/
+.para1 {
+  font-family: "Big Shoulders Inline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* ! ==== Para 2 ==== */
+/* // <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name */
+
+.para2 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ! ==== Para 3 === */
+.para3 {
+  font-family: "Grand Hotel", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ! ==== Para 7 ==== */
+.para7 {
+  font-family: "Jaini", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ! ==== Para 8 ==== */
+.kalam-light {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kalam-regular {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.para8 {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
