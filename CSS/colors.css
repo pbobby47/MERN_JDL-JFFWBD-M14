@@ -1,0 +1,61 @@
+/* 
+1. color name:
+    values : any color
+
+2. rgb: 
+    red, green, blue
+    Values: 0 - 255
+
+3. rgba: 
+    red ,  green , blue , alpha
+
+4. HEX: 
+    #rrggbb
+    Values : 0-9 , a-f
+    Ex: red --- #ff0000
+        green --- #00ff00
+        blue ---- #0000ff
+
+    #rgb
+    Values : 0-9, a-f
+    Ex: red --- #f00
+        green --- #0f0
+        blue --- #00f
+
+5. HSL: 
+6. HSLA: 
+*/
+
+body{
+    background-color: blue;
+    background-color: red;
+
+    background-color: rgb(44, 17, 36);
+
+    background-color: rgba(255, 0, 0, 0.98);
+
+    background-color: #ff0000;
+    background-color: #00ff00;
+    background-color: #0000ff;
+    background-color: #ffffff;
+    background-color: #a1b2c3;
+    background-color: #55bb88;
+
+    background-color: #f00;
+    background-color: #0f0;
+    background-color: #00f;
+    background-color: #000;
+    background-color: #123;
+    background-color: #143;
+
+    background-color: hsl(365, 100%, 50%);
+    background-color: hsl(0, 100%, 50%);
+    background-color: hsl(45, 100%, 50%);
+    background-color: hsl(180, 100%, 50%);
+    background-color: hsl(225, 100%, 50%);
+    background-color: hsl(350, 100%, 50%);
+    background-color: hsl(225, 100%, 90%);
+
+    background-color: hsla(225, 100%, 20%, 1);
+
+}
