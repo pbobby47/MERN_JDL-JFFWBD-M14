@@ -154,6 +154,12 @@
 
     <form>
 
+        <!--! [range]{length}  -->
+        <!--! Mobile ===  [0-9]{10}  -->
+        <!--! Only A-Z ===  [A-Z]{8}  -->
+        <!--! Only a-z ===  [a-z]{8}  -->
+        <!--! Only A-Ma-f0-5 ===  [A-Ma-f0-5]{10}  -->
+
         Name : <input type="text" name="empName" pattern="[A-Za-z]{8}" title="Enter alphabets and length should be 8">
         Mobile : <input type="text" name="mobileNo" pattern="[0-9]{10}" title="Enter a 10 digit mobile number">
         Mobile : <input type="number" name="mobileNo" pattern="[7-9]{1}[0-9]{9}" title="Enter a 10 digit mobile number">
